@@ -9,7 +9,6 @@ header{
     background-size: cover;
     background-position: center;
     height: 100vh;
-    /* margin-bottom: 130px; */
 }
 .banner{
     padding: 300px 250px 166px 1100px;
@@ -36,5 +35,34 @@ header{
     border: none;
 }
 
-/* failures section styles */
-
+/* improvements and failures section styles */
+.my-failures , .my-improvements{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 90px;
+    margin: 65px 250px;
+}
+.failures-container, .improvements-container{
+    padding-top: 200px;
+}
+.section-title{
+    font-size: 40px;
+    font-weight: 700;
+    margin-bottom: 24px;
+}
+.section-description{
+    font-size: 16px;
+    font-weight: 400;
+    color: #444343;
+    margin-bottom: 16px;
+}
+.failure-list, .improvement-list{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+ul li{
+    font-size: 18px;
+    list-style: none;
+}
