@@ -25,7 +25,7 @@
     font-weight: 400;
     padding: 24px 0 32px 30px;
 }
-.contact-button{
+.primary-button{
     color: #FFFFFF;
     background: #F15B22;
     font-size: 20px;
@@ -102,11 +102,63 @@ ul li{
 .positive-mindset .section-title{
     color: #FFFFFF;
 }
-.positive-mindset .contact-button{
+.positive-mindset .primary-button{
     color: #F15B22;
     background-color: #FFFFFF;
     padding: 20px 36px;
 }
 
 /* footer styles */
+.footer-container{
+    background: #151414;
+}
+.social-links{
+    display: flex;
+    gap: 331px;
+    padding: 130px 230px;
+}
+.social-links .section-title{
+    color: #FFFFFF;
+}
+.social-links .section-description{
+    color: #FFFFFF;
+}
+.email{
+    font-size: 16px;
+    font-weight: 200;
+    color: #FFFFFF;
+    margin-bottom: 16px;
+}
+.phone{
+    font-size: 16px;
+    font-weight: 200;
+    color: #FFFFFF;
+    margin-bottom: 32px;
+}
+.icons img{
+    margin-right: 18px;
+}
+.subscribe-title{
+    color: #FFFFFF;
+    font-size: 25px;
+    font-weight: 600;
+    margin-bottom: 31px;
+}
+.social-links .primary-button{
+    color: #F15B22;
+    background-color: #FFFFFF;
+    padding: 20px 36px;
+    margin-top: 16px;
+}
+.subscribe-section input{
+    border: 1px solid #FFFFFF;
+    border-radius: 8px;
+    padding: 22px 158px 22px 20px;
+    background: #151414;
+}
+.footer-title{
+    color: #FFFFFF;
+    text-align: center;
+    padding-bottom: 10px;
+}
 
