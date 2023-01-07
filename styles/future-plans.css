@@ -93,7 +93,7 @@ ul li{
     background-image: url('../images/gradients/gradient2.png'), url('../images/photos/watch.png');
     background-size: contain;
     background-repeat: no-repeat;
-    /* background-blend-mode: screen; */
+    background-blend-mode: multiply;
     margin: 125px 338px;
 }
 .positive-mindset{
@@ -153,6 +153,8 @@ ul li{
 .subscribe-section input{
     border: 1px solid #FFFFFF;
     border-radius: 8px;
+    font-size: 18px;
+    font-weight: 400;
     padding: 22px 158px 22px 20px;
     background: #151414;
 }
@@ -161,4 +163,3 @@ ul li{
     text-align: center;
     padding-bottom: 10px;
 }
-
