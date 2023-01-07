@@ -66,3 +66,27 @@ ul li{
     font-size: 18px;
     list-style: none;
 }
+
+/* my plans styles */
+.my-plans{
+    text-align: center;
+    margin-top: 130px;
+}
+.plans-container{
+    display: flex;
+    justify-content: space-around;
+    margin: 50px 230px 0;
+}
+.plan-title{
+    font-size: 30px;
+    font-weight: 700;
+    margin: 24px 0 16px;
+}
+.plan-sub-title{
+    color: #737272;
+    font-size: 25px;
+    font-weight: 500;
+}
+
+/* positive mindset styles */
+
