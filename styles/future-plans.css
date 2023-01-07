@@ -4,7 +4,7 @@
     font-family: 'Work Sans', sans-serif;
 }
 /* header styles */
-header{
+.banner-container{
     background-image: url('../images/banner/banner2.png');
     background-size: cover;
     background-position: center;
@@ -36,14 +36,14 @@ header{
 }
 
 /* improvements and failures section styles */
-.my-failures , .my-improvements{
+.failures-container, .improvements-container{
     display: flex;
     justify-content: center;
     align-items: center;
     gap: 90px;
     margin: 65px 250px;
 }
-.failures-container, .improvements-container{
+.improvements-info, .failures-info{
     padding-top: 200px;
 }
 .section-title{
@@ -68,11 +68,11 @@ ul li{
 }
 
 /* my plans styles */
-.my-plans{
+.plans-container{
     text-align: center;
     margin-top: 130px;
 }
-.plans-container{
+.my-plans{
     display: flex;
     justify-content: space-around;
     margin: 50px 230px 0;
@@ -89,4 +89,24 @@ ul li{
 }
 
 /* positive mindset styles */
+.positive-mindset-container{
+    background-image: url('../images/gradients/gradient2.png'), url('../images/photos/watch.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    /* background-blend-mode: screen; */
+    margin: 125px 338px;
+}
+.positive-mindset{
+    padding: 59px 617px 59px 64px;
+}
+.positive-mindset .section-title{
+    color: #FFFFFF;
+}
+.positive-mindset .contact-button{
+    color: #F15B22;
+    background-color: #FFFFFF;
+    padding: 20px 36px;
+}
+
+/* footer styles */
 
